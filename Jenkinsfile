@@ -15,7 +15,9 @@ pipeline {
         }
 
         stage('Deploy'){
-            echo 'depolying'
+            steps {
+                echo 'depolying'
+            } 
         }
     }
 }
